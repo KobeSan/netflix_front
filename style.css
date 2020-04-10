@@ -72,3 +72,38 @@ body {
   display: flex;
   align-items: center;
 }
+
+.banner {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.banner .poster {
+  width: 450px;
+}
+
+.banner .subtitle {
+  font-size: 1.25rem;
+  color: #ffffff;
+  line-height: 1.25;
+  padding-top: 0.5rem;
+}
+
+.buttons {
+  margin-top: 2rem;
+}
+
+.buttons .btn {
+  color: #ffffff;
+  padding: 0.6rem 2rem;
+  margin-right: 0.75rem;
+  font-weight: 600;
+  border-radius: 0.125rem;
+  background: rgba(51, 51, 51, 0.4);
+  font-family: inherit;
+  font-size: 100%;
+  border: 0;
+}
