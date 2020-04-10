@@ -21,3 +21,54 @@ body {
   background-size: cover;
   padding: 0.26rem 0.75rem 0 0.75rem;
 }
+
+.hero {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 3rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 5.8rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.menu-left,
+.menu-right {
+  display: flex;
+  color: #e5e5e5;
+  font-size: 0.875rem;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu ul li {
+  padding-right: 0.9rem;
+}
+
+.menu .user img {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.menu .user {
+  display: flex;
+  align-items: center;
+}
