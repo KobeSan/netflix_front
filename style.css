@@ -155,7 +155,26 @@ body {
   color: #808080;
 }
 
-.footer .social {
+.footer .social i {
   padding-right: 26px;
   font-size: 28px;
+}
+
+.flex {
+  display: flex;
+  padding-bottom: 80px;
+}
+
+.footer .info {
+  width: 25%;
+}
+
+.footer .info ul {
+  list-style: none;
+  display: inline;
+  font-size: 13px;
+}
+
+.footer .info ul li {
+  margin-top: 8px;
 }
